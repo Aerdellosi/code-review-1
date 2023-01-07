@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.makeBlock {
+    display: block;
+}
+
+.innerFlexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+}
+
+.outerFlexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.collage {
+    width: 700px;
+    height: auto;
+}
