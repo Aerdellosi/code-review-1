@@ -1,0 +1,17 @@
+.border1 {
+    height: 80vh;
+    position: fixed;
+    top: 16vh;
+    left: 5vh;
+    width: 18vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border2 {
+    height: 75vh;
+    width: 15vw;
+    background-color: rgb(28, 22, 25)
+}
