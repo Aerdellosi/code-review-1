@@ -1,0 +1,47 @@
+.border1 {
+    height: 80vh;
+    position: fixed;
+    top: 16vh;
+    right: 5vh;
+    width: 18vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border2 {
+    height: 75vh;
+    width: 15vw;
+    background-color: rgb(28, 22, 25)
+}
+
+.textBox {
+    color: white;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 1.07rem;
+}
+
+.makeBlock {
+    display: block;
+}
+
+.contact {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-style: italic;
+}
+.aboutMe {
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 70px;
+}
+.headerContact {
+    margin-left: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
