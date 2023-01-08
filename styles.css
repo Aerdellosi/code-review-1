@@ -231,8 +231,9 @@ body {
     font-weight: light;
 }
 
+
 .title:hover {
-    text-shadow: 0 0 20px white;
+    text-shadow: -2px -2px 40px white, 2px 2px 40px white, 2px -2px 40px white;
     border: 1px solid rgb(35,35,35);
 }
 
