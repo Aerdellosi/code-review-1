@@ -230,3 +230,7 @@ body {
     text-align: center;
     font-weight: light;
 }
+
+.title:hover {
+    text-shadow: 0 0 30px white;
+}
