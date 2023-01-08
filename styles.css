@@ -232,5 +232,20 @@ body {
 }
 
 .title:hover {
-    text-shadow: 0 0 30px white;
+    text-shadow: 0 0 20px white;
+    border: 1px solid rgb(35,35,35);
+}
+
+.contact:hover {
+    text-shadow: 0 0 20px white;
+}
+
+.centerTest {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coldTest {
+    display: block;
 }
