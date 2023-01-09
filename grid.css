@@ -1,0 +1,20 @@
+.grid {
+    height: 1000px;
+    width: 1600px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 17vw 17vw 17vw;
+    grid-template-rows: 20vw 20vw 20vw;
+    column-gap: 3vw;
+
+}
+
+.logos {
+    height: 17vw;
+    width: 17vw;
+}
+
+.noLovecraft {
+    height: 17vw;
+    width: auto;
+}
