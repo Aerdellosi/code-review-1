@@ -38,13 +38,39 @@
 }
 
 .squire {
-    height: 15vw;
+    height: 13vw;
     width: auto;
     display: block;
 }
 
 .singingWindsHollow {
-    height: 15vw;
+    height: 13vw;
     width: auto;
     display: block;
 }
+
+.noLovecraftContainer {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.goldenAgeContainer {
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.theReflectiongPoolContainer {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.squireContainer {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.singingWindsHollowContainer {
+    grid-row: 3;
+    grid-column: 3;
+}
+
