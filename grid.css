@@ -23,54 +23,91 @@
     height: 15vw;
     width: auto;
     display: block;
+    transform: translate(0, 30px);
 }
 
 .goldenAge {
     height: 15vw;
     width: auto;
     display: block;
+    transform: translate(0, 36px);
 }
 
 .theReflectiongPool {
     height: 13vw;
     width: 13vw;
     display: block;
+    /*transform: translate(0, 30px);*/
 }
 
 .squire {
     height: 13vw;
     width: auto;
     display: block;
+    transform: translate(0, 10px);
 }
 
 .singingWindsHollow {
-    height: 13vw;
+    height: 12vw;
     width: auto;
     display: block;
+    transform: translate(0, 0px);
 }
 
 .noLovecraftContainer {
     grid-row: 1;
     grid-column: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .goldenAgeContainer {
     grid-row: 1;
     grid-column: 3;
+    flex-direction: column;
 }
 
 .theReflectiongPoolContainer {
     grid-row: 2;
     grid-column: 2;
+    flex-direction: column;
 }
 
 .squireContainer {
     grid-row: 3;
     grid-column: 1;
+    flex-direction: column;
 }
 
 .singingWindsHollowContainer {
     grid-row: 3;
     grid-column: 3;
+    flex-direction: column;
 }
 
+.noLovecraftTitle {
+    color: white;
+    z-index: 9;
+}
+
+.goldenAgeTitle {
+    color: white;
+    z-index: 9;
+}
+
+.theReflectingPoolTitle {
+    color: white;
+    z-index: 9;
+    transform: translate(0, 6px);
+}
+
+.squireTitle {
+    color: white;
+    z-index: 9;
+}
+
+.singingWindsHollowTitle {
+    color: white;
+    z-index: 9;
+    transform: translate(0, 11px);
+}
