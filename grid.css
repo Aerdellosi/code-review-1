@@ -3,18 +3,48 @@
     width: 1600px;
     background-color: black;
     display: grid;
-    grid-template-columns: 17vw 17vw 17vw;
-    grid-template-rows: 20vw 20vw 20vw;
+    grid-template-columns: 20vw 20vw 20vw;
+    grid-template-rows: 15vw 15vw 15vw;
     column-gap: 3vw;
+    justify-items: center;
+    align-items: center;
 
 }
 
 .logos {
-    height: 17vw;
-    width: 17vw;
+    height: 15vw;
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .noLovecraft {
-    height: 17vw;
+    height: 15vw;
     width: auto;
+    display: block;
+}
+
+.goldenAge {
+    height: 15vw;
+    width: auto;
+    display: block;
+}
+
+.theReflectiongPool {
+    height: 13vw;
+    width: 13vw;
+    display: block;
+}
+
+.squire {
+    height: 15vw;
+    width: auto;
+    display: block;
+}
+
+.singingWindsHollow {
+    height: 15vw;
+    width: auto;
+    display: block;
 }
