@@ -3,9 +3,9 @@
     width: 1600px;
     background-color: black;
     display: grid;
-    grid-template-columns: 20vw 20vw 20vw;
-    grid-template-rows: 15vw 15vw 15vw;
-    column-gap: 3vw;
+    grid-template-columns: 15vw 15vw 15vw;
+    grid-template-rows: 12vw 12vw 12vw;
+    column-gap: 0vw;
     justify-items: center;
     align-items: center;
 
