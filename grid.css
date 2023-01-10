@@ -37,7 +37,7 @@
     height: 13vw;
     width: 13vw;
     display: block;
-    /*transform: translate(0, 30px);*/
+    transform: translate(0, 4px);
 }
 
 .squire {
@@ -98,7 +98,7 @@
 .theReflectingPoolTitle {
     color: white;
     z-index: 9;
-    transform: translate(0, 6px);
+    transform: translate(0, 10px);
 }
 
 .squireTitle {
