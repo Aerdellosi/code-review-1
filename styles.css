@@ -54,6 +54,55 @@
 
 }
 
+/*CAVIAR DREAMS FONT*/
+
+
+
+@font-face {
+    font-family: 'caviar_dreams';
+    src: url('/FONT_caviarDreams/caviarDreams_woff/caviar_dreams_bold-webfont.woff2') format('woff2'),
+         url('/FONT_caviarDreams/caviarDreams_woff/caviar_dreams_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'caviar_dreams_normal';
+    src: url('/FONT_caviarDreams/caviarDreams_woff/caviardreams-webfont.woff2') format('woff2'),
+         url('/FONT_caviarDreams/caviarDreams_woff/caviardreams-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'caviar_dreams';
+    src: url('/FONT_caviarDreams/caviarDreams_woff/caviardreams_bolditalic-webfont.woff2') format('woff2'),
+         url('/FONT_caviarDreams/caviarDreams_woff/caviardreams_bolditalic-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'caviar_dreams';
+    src: url('/FONT_caviarDreams/caviarDreams_woff/caviardreams_italic-webfont.woff2') format('woff2'),
+         url('/FONT_caviarDreams/caviarDreams_woff/caviardreams_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 /**MAIN**/
 
@@ -88,7 +137,7 @@ body {
     justify-content: center;
     z-index: 9;
     transform: translate(0,0,-9);
-    margin-top: 20vh;
+    margin-top: 192.2px;
 }
 
 .collage {
@@ -121,11 +170,11 @@ body {
 /**LEFT ASIDE**/
 
 .border1 {
-    height: 80vh;
+    height: 768.8px;
     position: fixed;
-    top: 16vh;
-    left: 5vh;
-    width: 18vw;
+    top: 153.76px;
+    left: 48.05px;
+    width: 345.6px;
     background-color: black;
     display: flex;
     align-items: center;
@@ -133,8 +182,8 @@ body {
 }
 
 .border2 {
-    height: 75vh;
-    width: 15vw;
+    height: 720.75px;
+    width: 288px;
     background-color: rgb(28, 22, 25)
 }
 
@@ -158,11 +207,11 @@ body {
 /**RIGHT ASIDE**/
 
 .border3 {
-    height: 80vh;
+    height: 768.8px;
     position: fixed;
-    top: 16vh;
-    right: 5vh;
-    width: 18vw;
+    top: 153.76px;
+    right: 48.05px;
+    width: 345.6px;
     background-color: black;
     display: flex;
     align-items: center;
@@ -170,8 +219,8 @@ body {
 }
 
 .border4 {
-    height: 75vh;
-    width: 15vw;
+    height: 720.75px;
+    width: 288px;
     background-color: rgb(28, 22, 25)
 }
 
@@ -213,8 +262,8 @@ body {
 .titleHeader {
     position: fixed;
     top: 0;
-    width: 100vw;
-    height: 15vh;
+    width: 1920px;
+    height: 144.14px;
     background-color: black;
     display: flex;
     align-items: center;
@@ -226,7 +275,7 @@ body {
     font-family: 'quicksand', 'Courier New', Courier, monospace;
     color: white;
     font-size: 4rem;
-    width: 80vw;
+    width: 1536px;
     text-align: center;
     font-weight: light;
 }
@@ -249,4 +298,148 @@ body {
 
 .coldTest {
     display: block;
+}
+
+/* grid */
+
+.divToCenter {
+    display: flex;
+    height: 600px;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 350px;
+    margin-top: 50px;
+    
+    
+}
+
+.grid {
+    height: 1000px;
+    width: 1600px;
+    display: grid;
+    grid-template-columns: 288px 288px 288px;
+    grid-template-rows: 230.4px 230.4px 230.4px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.logos {
+    height: 288px;
+    width: 288px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noLovecraft {
+    height: 288px;
+    width: auto;
+    display: block;
+    transform: translate(0, 30px);
+}
+
+.goldenAge {
+    height: 288px;
+    width: auto;
+    display: block;
+    transform: translate(0, 36px);
+}
+
+.theReflectiongPool {
+    height: 249.6px;
+    width: 249.6px;
+    display: block;
+    transform: translate(0, 4px);
+}
+
+.squire {
+    height: 249.6px;
+    width: auto;
+    display: block;
+    transform: translate(0, 10px);
+}
+
+.singingWindsHollow {
+    height: 230.4px;
+    width: auto;
+    display: block;
+    transform: translate(0, 0px);
+}
+
+.noLovecraftContainer {
+    grid-row: 1;
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.goldenAgeContainer {
+    grid-row: 1;
+    grid-column: 3;
+    flex-direction: column;
+}
+
+.theReflectiongPoolContainer {
+    grid-row: 2;
+    grid-column: 2;
+    flex-direction: column;
+}
+
+.squireContainer {
+    grid-row: 3;
+    grid-column: 1;
+    flex-direction: column;
+}
+
+.singingWindsHollowContainer {
+    grid-row: 3;
+    grid-column: 3;
+    flex-direction: column;
+}
+
+.noLovecraftTitle {
+    color: white;
+    z-index: 9;
+    font-family: 'caviar_dreams_normal','Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+.goldenAgeTitle {
+    color: white;
+    z-index: 9;
+    font-family: 'caviar_dreams_normal','Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+.theReflectingPoolTitle {
+    color: white;
+    z-index: 9;
+    transform: translate(0, 10px);
+    font-family: 'caviar_dreams_normal','Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+.squireTitle {
+    color: white;
+    z-index: 9;
+    font-family: 'caviar_dreams_normal','Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+.singingWindsHollowTitle {
+    color: white;
+    z-index: 9;
+    transform: translate(0, 11px);
+    font-family: 'caviar_dreams_normal','Times New Roman', Times, serif;
+    font-style: normal;
+    
+}
+
+.anchorLayerToFront {
+    z-index: 9;
+    text-decoration: none;
 }
