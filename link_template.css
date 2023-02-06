@@ -3,24 +3,66 @@ body {
 }
 
 .background {
-    width: 400px;
     height: 400px;
     display: flex;
     flex-direction: row;
 }
 
+.background2 {
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+}
+
+.background3 {
+    margin-bottom: 150px;
+    padding-bottom: 300px;
+}
+
 .test {
-    width: 400px;
-    height: 400px;
+    width: auto;
+    height: auto;
     margin-top: 100px;
     margin-left: 200px;
 }
 
-.underConstruction {
-    width: 400px;
+.test2 {
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.underConstruction1 {
     color: white;
-    font-size: 30pt;
     margin-top: 200px;
     margin-left: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.underConstruction2 {
+    font-size: 30pt;
+    width: 400px;
+}
+
+.projectDescription {
+    font-size: 14pt;
+    width: 30%;
+}
+
+.projectDescription3 {
+    line-height: 30px;
+    letter-spacing: 0.6px;
+    color: whitesmoke;
+    padding-bottom: 100px;
+    height: max-content;
+}
+
+.projectDescription2 {
+    font-size: 14pt;
+    width: 50%;
+}
+
+.italic {
+    font-style: italic;
 }
